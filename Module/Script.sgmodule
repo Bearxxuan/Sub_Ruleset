@@ -25,9 +25,9 @@ douyin_item = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/
 douyin_search = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/general\/search\/single\/,requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/douyin.js
 douyin_hot = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/hot\/search\/video\/list\/,requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/douyin.js
 # 看漫画极速版 （作者：HoGer）hostname =
-kanmanhuajisuban.js = type=http-response,pattern=^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/kanmanhuajisuban.js,script-update-interval=0
+kanmanhuajisuban.js = type=http-response,pattern=^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/kanmanhuajisuban.js,script-update-interval=0
 # 微信阅读 （作者：HoGer）hostname = i.weread.qq.com
-weixinyuedu.js = type=http-response,pattern=^https?:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/weixinyuedu.js,script-update-interval=0
+weixinyuedu.js = type=http-response,pattern=^https?:\/\/i\.weread\.qq\.com\/pay\/memberCardSummary,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/weixinyuedu.js,script-update-interval=0
 # 微博去广告 （作者：yichahucha）hostname = api.weibo.cn,
 wb_launch.js = type=http-response,pattern=^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,script-update-interval=0
 wb_ad.js = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|\!/photos/pic_recommend_status),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js,script-update-interval=0
@@ -35,7 +35,7 @@ wb_ad.js = type=http-response,pattern=^https?:\/\/m?api\.weibo\.c(n|om)/2/(statu
 weibointl_launch.js = type=http-response,pattern=^https?:\/\/weibointl\.api\.weibo\.cn/portal\.php\?a=get_coopen_ads,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/hancj0528/Script/master/weibointl_launch.js,script-update-interval=0
 weibointl_timeline.js = type=http-response,pattern=^https?:\/\/api\.weibo\.cn/2/(statuses|groups)/(unread_hot_|friends_)?timeline,requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/hancj0528/Script/master/weibointl_timeline.js,script-update-interval=0
 # 毒去广告 （作者：ConnersHua）hostname = m.poizon.com
-com.poizon.js = type=http-response,pattern=^https?:\/\/m\.poizon\.com\/client\/init,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/com.poizon.js,script-update-interval=0
+com.poizon.js = type=http-response,pattern=^https?:\/\/m\.poizon\.com\/client\/init,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/com.poizon.js,script-update-interval=0
 # 知乎去广告 （作者：onewayticket255）hostname = www.zhihu.com, api.zhihu.com, link.zhihu.com, 118.89.204.198
 zhihu people = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/people/,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js
 zhihu feed = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/moments/recommend,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js
@@ -58,12 +58,12 @@ rrtv.js = type=http-response,pattern=^https?:\/\/api\.rr\.tv(\/user\/profile|\/a
 # A岛去帖内广告 （作者：LarkinZero）hostname =
 nmb_no_ad.js = type=http-response,pattern=^https?:\/\/nmb\.fastmirror\.org\/Api\/thread.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/LarkinZero/Surge/master/nmb_no_ad.js,script-update-interval=0
 # 皮皮虾去广告 hostname = *.snssdk.com
-// Super.js = type=http-response,pattern=^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js,script-update-interval=0
+// Super.js = type=http-response,pattern=^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list),requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/Super.js,script-update-interval=0
 # 网飞获取IMDb分数 （作者：Kaname）hostname = ios.prod.ftl.netflix.com
 netflixratings.js = type=http-request,pattern=^https?:\/\/ios\.prod\.ftl\.netflix\.com\/iosui\/user\/.*path=%5B%22videos%22%2C%[0-9]+%22%2C%22summary%22%5D&pathFormat.*,script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/netflixratings.js,script-update-interval=0
 netflixratings.js = type=http-response,pattern=^https?:\/\/ios\.prod\.ftl\.netflix\.com\/iosui\/user\/.*path=%5B%22videos%22%2C%[0-9]+%22%2C%22summary%22%5D&pathFormat.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ikanam/Surge-Scripts/master/netflixratings.js,script-update-interval=0
 # 网易考拉去广告 （作者：Choler）hostname = sp.kaola.com
-Kaola.js = type=http-request,pattern=^https?:\/\/sp\.kaola\.com/api/openad$,script-path=https://raw.githubusercontent.com/Liquor030/Surge/master/Script/Kaola.js,script-update-interval=0
+Kaola.js = type=http-request,pattern=^https?:\/\/sp\.kaola\.com/api/openad$,script-path=https://raw.githubusercontent.com/Bearxxuan/Surge/master/Script/Kaola.js,script-update-interval=0
 # 腾讯新闻去广告 （作者：Choler）hostname = r.inews.qq.com
 QQNews.js = type=http-response,pattern=^https?:\/\/r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList),requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/QQNews.js,script-update-interval=0
 # 今日头条去广告 （作者：Choler）hostname = *.snssdk.com
@@ -73,8 +73,8 @@ xjsp.js = type=http-response,pattern=https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps
 # 91短视频
 91ShortVideo.js = type=http-response,pattern="^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$",requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/91ShortVideo.js,script-update-interval=0
 # 浪live
-lv-show.js = type=http-response,pattern=^https?:\/\/langapi\.lv-show\.com/.*?system/config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/lv-show.js,script-update-interval=0
+lv-show.js = type=http-response,pattern=^https?:\/\/langapi\.lv-show\.com/.*?system/config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/lv-show.js,script-update-interval=0
 # 斗鱼
-douyu.js = type=http-response,pattern=^https?:\/\/rtbapi\.douyucdn\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/douyu.js,script-update-interval=0
+douyu.js = type=http-response,pattern=^https?:\/\/rtbapi\.douyucdn\.cn,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/douyu.js,script-update-interval=0
 # 鲨鱼记账
-shayujizhang.js = type=http-response,pattern=^https?:\/\/api\.shayujizhang\.com\/account\/detail\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/shayujizhang.js,script-update-interval=0
+shayujizhang.js = type=http-response,pattern=^https?:\/\/api\.shayujizhang\.com\/account\/detail\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/shayujizhang.js,script-update-interval=0

@@ -1,6 +1,6 @@
 /*看漫画极速版 by HoGer
 [Script]
-kanmanhuajisuban.js = type=http-response,pattern=^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/kanmanhuajisuban.js,script-update-interval=0
+kanmanhuajisuban.js = type=http-response,pattern=^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/kanmanhuajisuban.js,script-update-interval=0
 
 [MITM]
 hostname = getuserinfo.321mh.com

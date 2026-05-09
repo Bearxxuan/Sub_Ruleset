@@ -1,7 +1,7 @@
-/*Remove Super's Ad & Logo by Liquor030
+/*Remove Super's Ad & Logo by Bearxx
 如果只需要去广告功能请在[URL Rewrite]中添加
  
-# Remove Super's Ad (By Liquor030)
+# Remove Super's Ad (By Bearxx)
 app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 header
  
 可大幅改善使用体验，强烈建议添加并禁用该脚本，在需要的时候开启脚本去水印！！
@@ -17,7 +17,7 @@ Detail: /cell/detail
 用户发帖: /user/publish_list
 ===================================
 [Script]
-http-response ^https?://.*\.(snssdk|pipix.com)\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js
+http-response ^https?://.*\.(snssdk|pipix.com)\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/Super.js
 [MITM]
 hostname = *.snssdk.com, *pipix.com
 */

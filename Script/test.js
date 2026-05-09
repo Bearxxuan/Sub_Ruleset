@@ -1,6 +1,6 @@
 /*by Liquor remove Super's ad/logo
 [Script]
-http-response ^https?://.*\.snssdk\.com/bds/feed/stream/ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/Super.js
+http-response ^https?://.*\.snssdk\.com/bds/feed/stream/ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/Super.js
 [MITM]
 hostname = *.snssdk.com
 */

@@ -59,8 +59,8 @@ hostname = %INSERT% *.snssdk.com
 # Resso (By JO2EY)
 (?<=(carrier|account|sys|sim)_region=)cn in 307
 
-# Remove Super's Ad (By Liquor030)
+# Remove Super's Ad (By Bearxx)
 app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 header
 
-# Remove News_Article's Ad (By Liquor030)
+# Remove News_Article's Ad (By Bearxx)
 app_name=news_article&([\S]*)aid=\d+ app_name=news_article_social&$1aid=19 header

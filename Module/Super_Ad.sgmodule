@@ -6,5 +6,5 @@
 hostname = %INSERT% *.snssdk.com, *pipix.com
 
 [URL Rewrite]
-# Remove Super's Ad (By Liquor030)
+# Remove Super's Ad (By Bearxx)
 app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 header

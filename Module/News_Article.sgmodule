@@ -6,5 +6,5 @@
 hostname = %INSERT% *.snssdk.com
 
 [URL Rewrite]
-# Remove News_Article's Ad (By Liquor030)
+# Remove News_Article's Ad (By Bearxx)
 app_name=news_article&([\S]*)aid=\d+ app_name=news_article_social&$1aid=19 header

@@ -1,6 +1,6 @@
-/*Remove 浪live's Ad by Liquor030
+/*Remove 浪live's Ad by Bearxx
 [Script]
-lv-show.js = type=http-response,pattern=^https?:\/\/langapi\.lv-show\.com/.*?system/config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/lv-show.js,script-update-interval=0
+lv-show.js = type=http-response,pattern=^https?:\/\/langapi\.lv-show\.com/.*?system/config,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/lv-show.js,script-update-interval=0
 
 [MITM]
 hostname = langapi.lv-show.com

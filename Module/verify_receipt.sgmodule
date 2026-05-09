@@ -6,4 +6,4 @@
 hostname = %INSERT% sandbox.itunes.apple.com, buy.itunes.apple.com
 
 [Script]
-verify_receipt.js = type=http-response,pattern=^https?:\/\/(sandbox|buy)\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/verify_receipt.js,script-update-interval=0
+verify_receipt.js = type=http-response,pattern=^https?:\/\/(sandbox|buy)\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/verify_receipt.js,script-update-interval=0

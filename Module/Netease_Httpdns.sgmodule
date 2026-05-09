@@ -8,4 +8,4 @@ hostname = %INSERT% httpdns.n.netease.com
 [Script]
 # 通过该网址查询
 # https://httpdns.n.netease.com/httpdns/v2/d?domain=music.163.com,interface.music.163.com,interface3.music.163.com,apm.music.163.com,apm3.music.163.com
-netease_httpdns = type=http-response,pattern=^https?:\/\/httpdns\.n\.netease\.com\/httpdns\/v2\/d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Liquor030/Sub_Ruleset/master/Script/netease_httpdns,script-update-interval=0
+netease_httpdns = type=http-response,pattern=^https?:\/\/httpdns\.n\.netease\.com\/httpdns\/v2\/d,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Bearxxuan/Sub_Ruleset/master/Script/netease_httpdns,script-update-interval=0
